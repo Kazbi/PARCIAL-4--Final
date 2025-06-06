@@ -1,0 +1,442 @@
+body {
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+nav {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+    width: auto;
+    background-color: #961919;
+  }
+
+  #novedades {
+    padding-top: 55px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: #ffdd93;
+    color: #000000;
+   }
+
+   #navbarNav{
+    padding-right: 10rem;
+    max-width: auto;
+
+  }
+
+.navbar-brand {
+  margin-left: 80px; 
+}
+
+----------
+
+.pavlova-container {
+  position: relative;
+  width: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.img-background {
+  width: 46%;
+
+  display: block;
+  align-items: center;
+  margin-left: 27%;
+}
+
+.img-gif {
+  bottom: 6%;
+  left: 15%;
+  width: 26%;
+  height: auto;
+  margin-left: 11%;
+  z-index: 1;
+}
+
+.img-texto {
+  top: 28%; /* ajustá según el área que querés cubrir */
+  left: 43%; /* esto hace que se monte sobre parte del gif */
+  width: 28%;
+  height: auto;
+    filter: drop-shadow(2px 2px 6px #a50030);
+  z-index: 2;
+}
+
+.img-gifS {
+  bottom: 6%;
+  left: 12%;
+  width: 39%;
+  height: auto;
+  margin-left: 11%;
+  z-index: 1;
+}
+
+.img-textoS {
+  top: 28%; /* ajustá según el área que querés cubrir */
+  left: 43%; /* esto hace que se monte sobre parte del gif */
+  width: 28%;
+  height: auto;
+    filter: drop-shadow(2px 2px 6px #8b044d);
+  z-index: 2;
+}
+--------------------
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .parallax-item {
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    scroll-margin-top: 80px; /* o el alto de tu navbar */
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  
+  .parallax-item h2 {
+    font-size: 45px;
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+    text-transform: initial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:#b63a3a;
+    padding: 1rem;
+  }
+
+.tuki {
+  color: #3b1c00; 
+  font-size: 3rem; /* Equivalente a 48px aproximadamente */
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  background-color: #ffdd93;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+  .TituloCRK{
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+    color: #961919;
+  } 
+
+    p{
+    font-family: "Federo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 20px;
+    font-size: 20px;
+  text-align: justify;
+  } 
+
+
+    .card-title{
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #460000;
+  } 
+
+    .ModosTab{
+      font-family: "Federo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    color: #460000;
+  } 
+  
+  .parallax-itemX {
+    padding-top: 3rem;
+    padding-bottom:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+  font-family: "Federo", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+      scroll-margin-top: 80px;
+    color: #ffffff;
+  }
+
+.TitNovedad{
+    align-items: center;
+    justify-content: center;
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #520e0e;
+  }
+
+ 
+  .TitAviso{
+    align-items: center;
+    justify-content: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 50px;
+  color: rgb(231, 59, 194);
+  }
+
+  .TitAvisoPav{
+    align-items: center;
+    justify-content: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  color: #db092c;
+  }
+
+em{
+    font-family: "Federo", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 20%;
+    font-size: 22px;
+    margin-right: 80px; 
+  } 
+
+
+  .parallax-itemX:first-child {
+    background: #db5925;
+    min-height: 80px;
+  }
+
+  .parallax-item:first-child {
+    background:#fff4c3;
+    background-size:cover;
+  min-height:auto;
+  min-width: auto;
+  }
+  
+  .parallax-item:nth-child(2) {
+    background: #fff2b6;
+  }
+  
+  .parallax-item:nth-child(3) {
+    background: url("https://i.ibb.co/tTs3RHtQ/Castle-in-the-sky-cutscene-9.webp") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 2rem;
+}
+  
+.parallax-item:nth-child(4) {
+  background: url("Recursos/Witch.jpg_large") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 2rem;
+}
+
+  .parallax-item:nth-child(5) {
+  background: url("https://i.ibb.co/CK1r4G9c/Ancient-Fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 2rem;
+  }
+
+  .parallax-item:nth-child(6) {
+    background-color: #ffae9f no-repeat center center fixed;
+  background-size: cover;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+  padding: 2rem;
+  }
+
+  .parallax-item:nth-child(7) {
+    background-color:#721b1b;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 400px;
+  }
+
+.HSCRK {
+  font-size: 2rem;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  color: white;
+  background-color: #2b170f;
+  padding: 3rem;
+  margin: 4rem auto;
+  max-width: 900px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.HSCRK2 {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.TarjetaH {
+  background-color: #381000;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  width: 370px;
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.TarjetaH:hover {
+  transform: scale(1.03);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.TextSup{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.TextInfer {
+  margin-top: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.carousel-inner {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#cardCarousel {
+  overflow: hidden;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .TarjetaH {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+  }
+
+  .carousel-item > div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.video-thumbnail img {
+  transition: transform 0.3s ease;
+  border: 10px solid #ffffff;
+  border-radius: 12px; /* bordes redondeados (opcional) */
+}
+
+.video-thumbnail img:hover {
+  transform: scale(1.05);
+}
+
+footer i:hover {
+  color: #f7c04a; /* Un doradito lindo para el hover */
+  transition: 0.3s;
+  background-color: #460000;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.delay-0 { animation-delay: 0.2s; }
+.delay-1 { animation-delay: 0.5s; }
+.delay-2 { animation-delay: 0.8s; }
+.delay-3 { animation-delay: 1.1s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Imagen flotando eternamente */
+.floating-img img {
+  animation: floaty 3s ease-in-out infinite;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+    pointer-events: auto;
+}

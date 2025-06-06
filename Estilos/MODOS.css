@@ -1,0 +1,120 @@
+     body {
+    background: url("https://static.wikia.nocookie.net/cookierunkingdom/images/8/84/Earthbread.jpg/revision/latest/scale-to-width-down/1000?cb=20240805033253") no-repeat center center fixed;
+    background-size: cover;
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      flex-direction: column;
+    }
+
+h2 {
+    font-size: 45px;
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+    text-transform: initial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:#b63a3a;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+
+
+     h3 {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #460000;
+    }
+
+        p{
+    font-family: "Federo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 20px;
+    font-size: 20px;
+  text-align: justify;
+  }
+    
+    .info-section {
+    background-color: #ffedc7;;
+    border-radius: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 4rem 2rem;
+    }
+
+    .info-content {
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .info-text {
+      flex: 1;
+      opacity: 0;
+      transform: translateX(-50px);
+      animation: slideInLeft 1s ease forwards;
+      animation-delay: 0.2s;
+    }
+
+    .info-image {
+      flex: 1;
+      opacity: 0;
+      transform: translateX(100px);
+      animation: slideInRight 1s ease forwards;
+      animation-delay: 0.4s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .info-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes slideInLeft {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+        .btn-volver {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-volver:hover {
+      background-color: #b63a3a;
+    }

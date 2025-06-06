@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Bestias</title>
+
+    <link rel="stylesheet" href="Estilos/BESTIAS.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Federo&family=Lugrasimo&family=Markazi+Text:wght@400..700&family=Outfit:wght@100..900&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tagesschrift&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+      <h2>LAS 5 BESTIAS</h2>
+
+    <div class="container">
+
+        <div class="card"
+            onclick="openModal('Recursos/Vídeos/MysticGacha.mp4', 'Una ausencia de color. Harina blanca pura y sin destilar que simboliza la libertad, la iluminación... y la futilidad. Cuando la magia bendijo por primera vez estas tierras, Galleta Harina Mística fue venerada como una santa, capaz de otorgar deseos tanto grandes como pequeños. Sin embargo, a medida que las multitudes se desvanecían, se quedó solo con apatía. Su luz una vez radiante se empañó, llevándola a unir fuerzas con las Galletas Bestias caídas. A pesar de todo, Galleta de Harina Mística no siente ira ni tristeza, ya que los deseos no son más que simples ilusiones, y todos los deseos mundanos están destinados a desaparecer algún día. Un mundo de nada. Un mundo donde cada cookie se libera de la carga. Ese es el mundo perfecto que ella imagina. Una vez que alcancen esa iluminación, uno abrirá sus ojos a la verdad cegadora: Apatía.', 'Recursos/Mystic_flour_default.webp')">
+            <img src="Recursos/Vídeos/Mysticflour.webp" alt="Galleta Valiente">
+            <div class="info">
+                <div class="name">Galleta de Harina Mística</div>
+                <div class="role">Sanadora</div>
+                <div class="quote">"Todo volverá a la harina..."</div>
+            </div>
+        </div>
+
+        <div class="card"
+            onclick="openModal('Recursos/Vídeos/BurningGacha.mp4', 'Mientras que los perdedores están condenados a ser tragados enteros por la Marea del Cambio, ¡los vencedores lo doblan a su voluntad! Una vez conocido como el Heraldo del Cambio, Galleta Especia Picante dio forma al curso de la historia, cuando la historia misma era joven. Fue aclamado como un héroe, un líder que luchó batalla tras batalla para proteger la tenue luz de la civilización que brilla en medio de la penumbra. Pero a medida que el tiempo avanzaba y los reinos se elevaban y caían en un ciclo interminable, se cansaba de la monotonía de todo. En su corazón, las semillas de la destrucción comenzaron a echar raíces. Su nombre, una vez celebrado, fue reemplazado por susurros del Gran Destructor. ¡Pero las alabanzas vacías y la adoración de Galletas no significaban nada para él, ya que solo la destrucción podía hacer hervir su mermelada! Durante su largo confinamiento, maldijo las cadenas que lo ataron, doliendo por desatar el caos. Pero ahora, Galleta de Especia Ardiente es gratis, desencadenaday listo para tallar un camino de estragos. El mundo temblará a medida que el Gran Destructor se levante una vez más... y nada se salvará.', 'Recursos/Burning_spice_default.webp')">
+            <img src="Recursos/Vídeos/Burningspice.webp" alt="Galleta Ángel">
+            <div class="info">
+                <div class="name">Galleta de Especía Picante</div>
+                <div class="role">Carga</div>
+                <div class="quote">"¡Tu destrucción será mi mayor placer!"</div>
+            </div>
+        </div>
+
+        <div class="card"
+            onclick="openModal('Recursos/Vídeos/ShadowGacha.mp4', '¡Ahh, bienvenido, bienvenido! ¿Por qué la mirada sorprendida? Oh, pero nos hemos conocido antes, ¿o lo has olvidado? Porque yo soy la sombra que vive en tu alma—una mentira! Lo que podría haber sucedido con esta Galleta, una vez anunciada como la Fuente del Conocimiento, que lo convirtió en el Maestro del Engaño. Hace eones, cuando La Tierra de Pantodavía era joven, el resplandor del Conocimiento nació para bendecir todo lo que era con significado. Sin embargo, en la sombra proyectada por esta luz, habitó su gemelo, Deceit. Con el tiempo, todos aquellos desencantados con la amarga Verdad volvieron sus ojos al atractivo tapiz de mentiras girado por el embaucador de lengua plateada. Haciendo malabares magistrales con verdades y falsedades en la escena de un juego de sombras caprichoso, Shadow Milk Cookie ha perfeccionado su oficio de romper las creencias de los más estoicos en una miríada de reflexiones traicioneras. ¡Aplausos, aplausos! Es hora de levantar el telón, para que el espectáculo sumerja al mundo en un caos interminable está a punto de comenzar..' , 'Recursos/Shadow_milk_default.webp')">
+            <img src="Recursos/Vídeos/Shadowmilk.webp" alt="Galleta Mágica">
+            <div class="info">
+                <div class="name">Galleta de Leche Sombría</div>
+                <div class="role">Hechicero</div>
+                <div class="quote">"¡En serio, ¿quién puede decir "no" a una pizca de buen viejo engaño?!"</div>
+            </div>
+        </div>
+
+
+        <div class="card"
+            onclick="openModal('Recursos/Vídeos/EternalGacha.mp4', 'Hace eones, vivía una Galleta, bendecida con dulzura absoluta. El azúcar de la felicidad, la llamaron sus seguidores, porque ella fue traída a este mundo para lavarlo con felicidad y amor ilimitado. Por desgracia, todo lo que amaba era pequeño y frágil—frágil, como una delgada lámina de vidrio de azúcar. El dolor y el sufrimiento de la raza de galletas se sintieron como propios, hasta que un día, creó un jardín paradisíaco donde todos disfrutarían de la Felicidad y la Alegría eternas... Así, Eternal Sugar Cookie se convirtió en su nombre. Pasó el tiempo, y más y más Galletas, curiosas por la Felicidad y la Pereza, entraron en el Jardín de las Delicias—pero ninguna se fue. Solo ecos débiles, vagando por las tierras de Bestia-Esteél, queda para susurrar de una eternidad de dulzura perezosa...', 'Recursos/eternal_sugar.webp')">
+            <img src="Recursos/Vídeos/Eternal_sugar_gacha_animation.gif" alt="Galleta Mágica">
+            <div class="info">
+                <div class="name">Galleta de Azúcar Eterna</div>
+                <div class="role">Bombardera</div>
+                <div class="quote">"Te haré una Galleta feliz... ¡PARA SIEMPRE!"</div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Recursos/SS SPRITE.png" alt="Galleta Mágica">
+            <div class="info">
+                <div class="name">Galleta de Sal Silenciosa</div>
+                <div class="role">???</div>
+                <div class="quote">Muy pronto.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-close" onclick="closeModal()">&times;</div>
+        <div class="modal-content">
+            <video id="modal-video" controls autoplay onended="showDescription()">
+                <source id="video-source" src="" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+            <div class="description-section" id="description-section">
+                <img id="description-image" src="" alt="Imagen relacionada">
+                <p id="modal-text"></p>
+            </div>
+        </div>
+    </div>
+
+       <a href="index.html" class="btn-volver">Volver al inicio</a>
+
+    <script>
+        let descriptionText = "";
+        let descriptionImg = "";
+
+        function openModal(videoUrl, description, imgUrl) {
+            descriptionText = description;
+            descriptionImg = imgUrl;
+            const modal = document.getElementById('modal');
+            const video = document.getElementById('modal-video');
+            const source = document.getElementById('video-source');
+
+            source.src = videoUrl;
+            video.load();
+            video.play();
+
+            modal.style.display = 'flex';
+            document.getElementById('description-section').style.display = 'none';
+        }
+
+        function showDescription() {
+            const video = document.getElementById('modal-video');
+            video.style.display = 'none';
+
+            const descSection = document.getElementById('description-section');
+            const descImg = document.getElementById('description-image');
+            const descText = document.getElementById('modal-text');
+
+            descImg.src = descriptionImg;
+            descText.textContent = descriptionText;
+            descSection.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            const video = document.getElementById('modal-video');
+            const descSection = document.getElementById('description-section');
+
+            video.pause();
+            video.currentTime = 0;
+            video.style.display = 'block';
+            descSection.style.display = 'none';
+
+            modal.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
